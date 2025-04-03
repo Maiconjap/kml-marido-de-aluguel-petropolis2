@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Marido de aluguel em Petrópolis | Encanador | Eletricista | limpeza de estofados</name>
+    <description>
+      Endereço: Debora couto sicupira 58 - Carangola, Petrópolis - RJ, 25715-364
+      Telefone: (24)98124-4659
+      Site: https://maridodealuguelpetropolis.com.br/fale-conosco
+    </description>
+    
+    <!-- Marcador do negócio -->
+    <Placemark>
+      <name>Marido de aluguel em Petrópolis</name>
+      <description>Encanador, Eletricista, limpeza de estofados</description>
+      <Point>
+        <coordinates>-43.161994,-22.449974,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <!-- Área de Serviço sem recorte -->
+    <Placemark>
+      <name>Área de Serviço</name>
+      <description>Área de atuação em Petrópolis e arredores</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -43.0481783,-22.2534482,0 
+              -43.1155496,-22.1876814,0 
+              -43.1564487,-22.2451726,0 
+              -43.1694239,-22.3956251,0 
+              -43.2608309,-22.3466055,0 
+              -43.2369558,-22.4944701,0 
+              -43.2370783,-22.5147124,0 
+              -43.2278801,-22.5510354,0 
+              -43.1708021,-22.5405175,0 
+              -43.0881005,-22.4487809,0 
+              -42.9613978,-22.4637456,0 
+              -42.9383202,-22.3879185,0 
+              -43.0055819,-22.36949,0 
+              -43.056829,-22.3816662,0 
+              -43.0829453,-22.2919649,0 
+              -43.0481783,-22.2534482,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    
+  </Document>
+</kml>
